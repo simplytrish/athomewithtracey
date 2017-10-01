@@ -9,14 +9,18 @@
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
 
+	<!--  Styling -->
+	<link rel="stylesheet" type="text/css" href="main.css">
+
 	</head>
 
 	<body>
 
 		<div class="container-fluid">
-			<nav class="row no-gutters the-header navbar navbar-expand-lg" role="navigation">
-				<div class="col col-lg-2">
-				Title
+			<div class="row all-content no-gutters">
+			<nav class="row no-gutters the-header navbar navbar-expand-lg navbar-light" role="navigation">
+				<div class="col col-lg-4 header-title">
+				DINING WITH TRACEY
 				</div>
 				<div class="col-md-auto">
 				</div>
@@ -26,53 +30,64 @@
 				<div class="col collapse navbar-collapse" id="navbarSupportedContent">
 					<ul class="navbar-nav mr-auto">
 				      <li class="nav-item active">
-				        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+				        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">About</a>
+				        <a class="nav-link" href="#about-anchor">ABOUT</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Menus</a>
+				        <a class="nav-link" href="#menus-anchor">MENUS</a>
 				      </li>
 				      <li class="nav-item">
-				        <a class="nav-link" href="#">Contacts</a>
+				        <a class="nav-link" href="#foot-anchor">CONTACTS</a>
 				      </li>
 				    </ul>
 				</div>
 			</nav>
 			<div class="row no-gutters the-jumbo">
-				<div class="col">
-				jumbo
+				<div class="col-sm-12 jumbo-image">
+				<!--<img src="images/jumbo-img.jpg" class="img-fluid" alt="jumbo-food image" />-->
 				</div>
 			</div>
-			<div class="row no-gutters the-about">
-				<div class="col-sm-4">
-				about picture
+			<div class="row no-gutters the-about" id="about-anchor">
+				<div class="col-sm-4 about-image">
+				<img src="images/baking.jpg" class="img-fluid" alt="me-baking image" />
 				</div>
-				<div class="col-sm-8">
-				about text
+				<div class="col-sm-8 about-text">
+				<p id="about-title">ABOUT <b style="color:black;">US</b></p>
+				<p>I’m a paragraph . Double click here or click Edit Text to add some text of your own or to change the font. Tell your visitors a bit about your services. I’m a paragraph . Double click here or click Edit Text to add some text of your own or to change the font. Tell your visitors a bit about your services.
+				</p>
 				</div>
 			</div>
-			<div class="row no-gutters the-menus">
+			<div class="row no-gutters the-menus" id="menus-anchor">
 				<div class="col">
 				menus
 				</div>
 			</div>
-			<div class="row no-gutters the-footer">
-				<div class="col">
+			<div class="row no-gutters the-footer" id="foot-anchor">
+				<div class="col-sm">
 				Subscribe box
 				</div>
-				<div class="col">
-				Contact box
+				
+				<div class="col-sm-4">
+					<ul>
+						<li><img src="images/mention.svg" class="rounded float-left mail-icon" alt="email icon">tracey@ketchupandeggs.com</li>
+						<li><img src="images/file.svg" class="rounded float-left file-icon" alt="tos icon"><a href="#">Terms of Service</a></li>
+					</ul>	
 				</div>
-				<div class="col">
-				Social links
+				
+				<div class="col-sm">
+					<ul class="social-block">
+						<li><img src="images/facebook-icon.png"></li>
+						<li><img src="images/instagram-icon.png"></li>
+						<li><img src="images/pinterest-icon.png"></li>
+					</ul>
 				</div>
-				<div class="col">
+				<div class="col-sm">
 				Feedback
 				</div>
 			</div>
-  
+  			</div>
 		</div>
 
 
