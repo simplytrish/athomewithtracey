@@ -81,9 +81,23 @@ hr{
 	/*border:1px solid black;*/
 	margin: 0 auto;
 	opacity: 0.5;
+	filter: alpha(opacity=50);
 	margin-bottom: 10px;
 }
 
+.menu-info{
+	/*border:1px solid black;*/
+	z-index: 10;
+	position: absolute;
+	width: 100%;
+	margin-left:17.4%;
+	margin-top:3.5%;
+	background-color: #FFFFFF;
+	text-align: center;
+	font-size: 1.5em;
+	color: #414141;
+
+}
 /*Footer styling*/
 
 .the-footer {
@@ -127,4 +141,12 @@ hr{
 
 /*Media queries*/
 
+@media(max-width:768px) {
+
+	.menu-info{
+		font-size: 1em;
+		margin: 0 auto;
+	}
+
+}
 
