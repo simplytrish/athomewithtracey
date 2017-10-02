@@ -80,6 +80,13 @@ hr{
 	margin: 0 auto;
 }
 
+.menu-post{
+	/*border:1px solid black;*/
+	margin: 0 auto;
+	opacity: 0.5;
+	margin-bottom: 10px;
+}
+
 /*Footer styling*/
 
 .the-footer {
