@@ -3,7 +3,7 @@
 /*Shared styles*/
 
 body {
-	font-family: arial,sans-serif;
+	font-family: Open Sans,sans-serif;
 }
 
 .container-fluid {
@@ -60,6 +60,7 @@ hr{
 .about-text {
 	background-color: #4BD1A0;
 	text-align: center;
+	font-size: 18px;
 	
 }
 
@@ -95,7 +96,7 @@ hr{
 	background-color: #FFFFFF;
 	text-align: center;
 	font-size: 1.5em;
-	color: #414141;
+	color: #000000;
 
 }
 /*Footer styling*/
