@@ -93,6 +93,12 @@ hr{
 .the-menus {
 	width:980px;
 	margin: 0 auto;
+	font-family: Open Sans Condensed, sans-serif;
+	font-size: 1.1em;
+}
+
+.the-menus h1{
+	font-family: 'Krona One', sans-serif;
 }
 
 .menu-post{
@@ -115,6 +121,10 @@ hr{
 	font-size: 1.2em;
 	color: #000000;
 
+}
+
+.tab-content{
+	padding-left:10px;
 }
 /*Footer styling*/
 

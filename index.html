@@ -85,8 +85,80 @@
 				</p>
 				</div>
 			</div>
-			<div class="row no-gutters the-menus" id="menus-anchor">
-				<div class="col-sm-4 menu-info rounded">
+			<div class="the-menus" id="menus-anchor">
+				<h1>MENUS</h1>
+				<ul class="nav nav-tabs" id="myTab" role="tablist">
+				  <li class="nav-item">
+				    <a class="nav-link active" id="set-tab" data-toggle="tab" href="#setcourse" role="tab" aria-controls="setcourse" aria-selected="true">Set Courses</a>
+				  </li>
+				  <li class="nav-item">
+				    <a class="nav-link" id="entree-tab" data-toggle="tab" href="#entree" role="tab" aria-controls="entree" aria-selected="false">Entreé</a>
+				  </li>
+				</ul>
+				<div class="tab-content" id="myTabContent">
+				  <div class="tab-pane fade show active" id="setcourse" role="tabpanel" aria-labelledby="set-tab">
+				  	<div class="row">
+					  	<div class="col">
+					  		<h3>3 Course Meal</h3>
+					  	</div>
+					  	<div class="w-100"></div>
+					  	<div class="col">
+					  		<h4>Starter</h4>
+					  		Peri Peri Pâté - chicken liver pâté with a sweet and mildly spicy peri peri relish and crispy bread
+					  	</div>
+					  	<div class="w-100"></div>
+					  	<hr>
+					  	<div class="col">
+					  		<h4>Entreé</h4>
+					  		Braised Oxtail - red wine braised oxtail, creamy black eyed beans and sauteed cabbage
+					  	</div>
+					  	<div class="w-100"></div>
+					  	<hr>
+					  	<div class="col">
+					  		<h4>Dessert</h4>
+					  		Rooibos Ice Cream - rooibos tea ice cream with a tangy lemon syrup
+					  	</div>
+					  	<div class="w-100"></div>
+					  	<hr>
+					  	<div class="col">
+					  		<a class="btn btn-secondary" href="" role="button">Reservation</a>
+					  	</div>
+					  	<div class="w-100"></div>
+				  	</div>
+				  	
+				  </div>
+				  <div class="tab-pane fade" id="entree" role="tabpanel" aria-labelledby="entree-tab">
+
+				  	<div class="row">
+					  	<div class="col-md-4">
+					  		<img src="images/poitjie.jpg" class="img-fluid" alt="main dish" />
+					  		<p>
+					  			Title <br>
+					  			Description <br>
+					  			Price
+					  		</p>
+					  	</div>
+					  	<div class="col-md-4">
+					  		<img src="images/poitjie.jpg" class="img-fluid" alt="main dish" />
+					  		<p>
+					  			Title <br>
+					  			Description <br>
+					  			Price
+					  		</p>
+					  	</div>
+					  	<div class="col-md-4">
+					  		<img src="images/poitjie.jpg" class="img-fluid" alt="main dish" />
+					  		<p>
+					  			Title <br>
+					  			Description <br>
+					  			Price
+					  		</p>
+					  	</div>
+				  	</div>
+				  </div>
+				</div>
+
+				<!--<div class="col-sm-4 menu-info rounded">
 					<p><b style="color:#ED1566; font-family: Open Sans Condensed, sans-serif; font-size: 1.6em;">MENUS COMING SOON!</b> Using exotic and local fresh ingredients, click on one of the menus to view the details and book now! <br>
 					<b style="color:#ED1566; font-family: Open Sans Condensed, sans-serif; font-size: 1.6em;">メニューはもうすぐ完成します！</b>南部アフリカ産そして地元の新鮮な食材を使って
 					います。メニューのどれか一つをクリックして詳細をご覧ください。ご予約をお待
@@ -116,7 +188,7 @@
 				</div>
 				<div class="col-md-3 menu-post menu-eight">
 					<img src="images/ocra.jpg" class="img-fluid" alt="" />
-				</div>
+				</div>-->
 			</div>
 			<hr>
 			<div class="row no-gutters the-footer" id="foot-anchor">
@@ -176,7 +248,7 @@
 		<!--Script for smooth scroll transition to anchors-->
 
 		<script>
-			$(document).on('click', 'a[href^="#"]', function (event) 
+			$(document).on('click', 'a[href^="#about-anchor + menus-anchor + foot-anchor"]', function (event) 
 			{
 			    event.preventDefault();
 
@@ -187,7 +259,23 @@
 
 			var $root = $('html, body');
 
-			$('a[href^="#"]').click(function () {
+			$('a[href^="#about-anchor').click(function () {
+			    $root.animate({
+			        scrollTop: $( $.attr(this, 'href') ).offset().top
+			    }, 800);
+
+			    return false;
+			});
+
+			$('a[href^="#menus-anchor').click(function () {
+			    $root.animate({
+			        scrollTop: $( $.attr(this, 'href') ).offset().top
+			    }, 800);
+
+			    return false;
+			});
+
+			$('a[href^="#foot-anchor').click(function () {
 			    $root.animate({
 			        scrollTop: $( $.attr(this, 'href') ).offset().top
 			    }, 800);
@@ -196,6 +284,14 @@
 			});
 
 		</script>
+
+		<script>
+			$('#myTab a').on('click', function (e) {
+  			e.preventDefault()
+  			$(this).tab('show')
+			})
+		</script>
+
 
 		<!--Mailchimp Javascript -->
 		<script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
