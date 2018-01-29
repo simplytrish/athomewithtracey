@@ -53,6 +53,17 @@ hr{
   	object-position: center;
 }
 
+.discount-banner {
+	margin: 0 auto;
+	width:980px;
+}
+
+.discount-banner img {
+	max-height:90px;
+	margin-bottom: 5px;
+	object-fit: cover; /*scale and maintain aspect ratio */
+  	object-position: center;
+}
 
 /*About styling*/
 
