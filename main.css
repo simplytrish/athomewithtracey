@@ -123,12 +123,15 @@ hr{
 	z-index: 10;
 	position: absolute;
 	width: 100%;
-	margin-left:17.4%;
-	margin-top:3.5%;
+	margin:5% 5% 0% 5%;
 	background-color: #FFFFFF;
 	text-align: center;
 	font-size: 1.2em;
 	color: #000000;
+
+}
+
+.menu-info p{
 
 }
 /*Footer styling*/
