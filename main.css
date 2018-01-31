@@ -174,11 +174,21 @@ hr{
 
 /*Media queries*/
 
+@media(min-width:576px) {
+
+	.menu-info{
+		max-width: 50% !important;
+
+	}
+
+}
+
 @media(max-width:768px) {
 
 	.menu-info{
 		font-size: 1em;
 		margin: 0 auto;
+
 	}
 
 }
