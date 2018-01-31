@@ -75,14 +75,15 @@ hr{
 }
 
 .about-text {
-	background-color: #4BD1A0;
+	/*background-color: #4BD1A0;*/
+	background-color: #C97E0C;
 	text-align: center;
 	font-size: 16px;
 	
 }
 
 .about-text p{
-	padding: 30px 30px 0px 30px;
+	padding: 20px 20px 0px 20px;
 }
 
 
@@ -131,9 +132,6 @@ hr{
 
 }
 
-.menu-info p{
-
-}
 /*Footer styling*/
 
 .the-footer {
