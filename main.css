@@ -161,8 +161,15 @@ hr{
 
 #mc_embed_signup input.button{
 	border-radius: 0;
-	background-color: rgba(65,65,65,1);
+	background-color: #DA1E0D;
 	width:100%;
+	-webkit-transition-duration: 0.2s; /* Safari */
+    transition-duration: 0.2s;
+    font-size: 20px;
+}
+
+#mc_embed_signup input.button:hover{
+	background-color: #25B80D;
 }
 
 .mail-icon, .file-icon{
