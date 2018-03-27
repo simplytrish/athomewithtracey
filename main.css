@@ -83,7 +83,7 @@ a:hover{
 .about-text {
 	/*background-color: #4BD1A0;*/
 	/*background-color: #C97E0C;*/
-	/*background-color: #EEEFF1;*/
+	background-color: #FFFFFF;
 	text-align: center;
 	font-size: 18px;
 	padding-top: 100px;
@@ -109,7 +109,6 @@ a:hover{
 
 #about-title {
 	font-size:48px;
-	color: white;
 	font-family: 'Krona One', sans-serif;
 }
 
