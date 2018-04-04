@@ -4,6 +4,7 @@
 
 body {
 	font-family: Open Sans,sans-serif;
+	line-height: 1.8;
 }
 
 .container-fluid {
@@ -236,8 +237,18 @@ a:hover{
 /**** MENU DETAILS STYLES ****/
 
 .menu-content{
-	width:980px;
+	width:1024px;
 	margin: 0 auto;
+	line-height: 
+}
+
+.menu-item_image{
+	background-image: url(images/oxtail-port.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	width:100%;
+	height: calc(100vh - 100px);
 }
 
 .title-dash{
@@ -257,7 +268,7 @@ a:hover{
 	height: auto;
 }
 
-.menu-item_about{
+.menu-item_about_title{
 	font-weight: bold;
 }
 
@@ -268,6 +279,17 @@ a:hover{
 }
 
 .drink-text{
+	display: inline-block;
+	width: 196px;
+}
+
+.dessert-image{
+	display: inline-block;
+	width: 145px;
+	height: 165px;
+}
+
+.dessert-text{
 	display: inline-block;
 	width: 196px;
 }
@@ -347,5 +369,24 @@ a:hover{
 
 	}
 
+	.menu-content{
+		width:95%;
+	}
+
+	.menu-item_image{
+		height: 30%;
+	}
+
+	.menu-item_about_title{
+		text-align: center;
+	}
+
+	.menu-item_about_info{
+		text-align: center;
+	}
+
 }
+
+
+
 
