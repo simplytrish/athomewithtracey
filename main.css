@@ -149,7 +149,7 @@ a:hover{
 }
 
 .the-menus a:hover{
-	color: #C97E0C;
+	color: #FFFFFF;
 }
 
 .the-menus a{
@@ -160,12 +160,15 @@ a:hover{
 	overflow: hidden;
 }
 
+h4{
+	font-family: Open Sans Condensed, sans-serif;
+}
+
 
 /**REMOVE THIS BLOCK ONCE MENUS ARE REVEALED**/
 .menu-img{
 	width: 100%;
 	height: auto;
-	opacity: 0.5;
 	display: block;
 }
 
@@ -256,7 +259,7 @@ a:hover{
 	padding-bottom: 50px;
 }
 
-/**** MENU DETAILS STYLES ****/
+/**** MENU DETAILS PAGE STYLES ****/
 
 .menu-content{
 	width:1024px;
@@ -275,7 +278,7 @@ a:hover{
 
 .title-dash{
 	width:80px;
-	border:1px solid red;
+	border:1px solid;
 	margin-left: 0px;
 	margin-right: 0px;
 }
@@ -294,26 +297,36 @@ a:hover{
 	font-weight: bold;
 }
 
-.drink-image{
+.app-image{
 	display: inline-block;
-	width: 145px;
-	height: 165px;
+	width: 200px;
+	height: auto;
 }
 
-.drink-text{
+.app-text{
 	display: inline-block;
 	width: 196px;
 }
 
 .dessert-image{
 	display: inline-block;
-	width: 145px;
-	height: 165px;
+	width: 200px;
+	height: auto;
 }
 
 .dessert-text{
 	display: inline-block;
 	width: 196px;
+}
+
+.sides-dash{
+	width: 200px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+h5{
+	font-family: Open Sans Condensed, sans-serif;
 }
 
 .back-link{
