@@ -164,8 +164,15 @@ h4{
 	font-family: Open Sans Condensed, sans-serif;
 }
 
+.index-menu-header, .index-menu-details{
+	width: 100%;
+	margin: 0 auto !important;
+}
 
-/**REMOVE THIS BLOCK ONCE MENUS ARE REVEALED**/
+.index-menu-header h3{
+	color:#C97E0C;
+}
+
 .menu-img{
 	width: 100%;
 	height: auto;
@@ -179,9 +186,9 @@ h4{
 	font-weight: bold;
 	color: #ffffff;
 }
-/**REMOVE THIS BLOCK ONCE MENUS ARE REVEALED**/
 
-/* Use this styling when menus are ready for the reveal
+
+/* Archived this styling (was for hover and blur over each menu item)
 .menu-img{
 	max-height: 100%;
 	width: 100%;
