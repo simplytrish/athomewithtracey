@@ -188,39 +188,6 @@ h4{
 }
 
 
-/* Archived this styling (was for hover and blur over each menu item)
-.menu-img{
-	max-height: 100%;
-	width: 100%;
-	height: auto;
-	opacity: 1;
-	display: block;
-	transition: .5s ease;
-	backface-visibility: hidden;
-	-webkit-backface-visibility: hidden;
-}
-
-.menu-link{
-	transition: .5s ease;
-	opacity: 0;
-	position: absolute;
-	top: 40%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	-webkit-transform: translate(-50%, -50%);
-}
-
-.menu-hover:hover .menu-img{
-	opacity: 0.3;
-}
-
-
-.menu-hover:hover .menu-link{
-	opacity: 1;
-}*/
-
-
 .menu-title{
 	font-weight: bold;
 	max-height: 48px;
