@@ -233,7 +233,7 @@ h4{
 	padding-bottom: 50px;
 }
 
-/**** MENU DETAILS PAGE STYLES ****/
+/**** OXTAIL DETAILS PAGE STYLES ****/
 
 .menu-content{
 	width:1024px;
@@ -241,8 +241,17 @@ h4{
 	line-height: 
 }
 
-.menu-item_image{
+.menu-item_oxtail{
 	background-image: url(images/oxtail-port.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-origin: content-box;
+	width:100%;
+	height: calc(100vh - 100px);
+}
+
+.menu-item_seswaa{
+	background-image: url(images/seswaa-port.jpg);
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-origin: content-box;
@@ -314,6 +323,34 @@ h5{
 	color:#000000;
 }
 
+
+/**** SESWAA DETAILS PAGE STYLES ****/
+
+.broth-image{
+	display: inline-block;
+	width: 200px;
+	height: 300px;
+}
+
+.broth-text{
+	display: inline-block;
+	width: 196px;
+}
+
+.cake-image{
+	display: inline-block;
+	width: 200px;
+	height: auto;
+}
+
+.cake-text{
+	display: inline-block;
+	width: 196px;
+}
+
+
+/***FOOTER FORM***/
+
 #mc_embed_signup{
 	background:#fff; 
 	clear:left;
@@ -360,7 +397,7 @@ h5{
 	display:inline-block;
 }
 
-/*Media queries*/
+/***Media queries***/
 
 @media(min-width:576px) {
 
