@@ -329,7 +329,7 @@ h5{
 .broth-image{
 	display: inline-block;
 	width: 200px;
-	height: 300px;
+	height: auto;
 }
 
 .broth-text{
