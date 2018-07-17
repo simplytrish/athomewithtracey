@@ -173,6 +173,16 @@ h4{
 	color:#C97E0C;
 }
 
+.full-label{
+	color: #868e96;
+	font-weight: bolder;
+}
+
+.available-label{
+	color: #0DAE05;
+	font-weight: bolder;
+}
+
 .menu-img{
 	width: 100%;
 	height: auto;
@@ -186,7 +196,6 @@ h4{
 	font-weight: bold;
 	color: #ffffff;
 }
-
 
 .menu-title{
 	font-weight: bold;
