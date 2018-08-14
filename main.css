@@ -234,6 +234,16 @@ h4{
 
 /*Event styling*/
 
+.the-events {
+	width:100%;
+	margin: 0 auto;
+}
+
+.events-content{
+	width:100%;
+	margin: 0 auto;
+}
+
 /*Footer styling*/
 
 .the-footer {
