@@ -39,7 +39,7 @@ a:hover{
 }
 
 .nav-item {
-	padding-right: 20px;
+	padding-right: 5px; /*extra padding to the right*/
 }
 
 
