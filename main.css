@@ -244,6 +244,11 @@ h4{
 	margin: 0 auto;
 }
 
+#event-booking-list{
+	list-style: disc;
+	padding-left:15px;
+}
+
 /*Footer styling*/
 
 .the-footer {
