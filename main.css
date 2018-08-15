@@ -144,8 +144,14 @@ a:hover{
 .the-menus {
 	width:100%;
 	margin: 0 auto;
-	padding-top: 80px;
-	padding-bottom: 80px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.menus-header{
+	text-align: center;
+	font-family: 'Krona One', sans-serif;
+	margin-bottom: 60px;
 }
 
 .the-menus a:hover{
@@ -237,6 +243,14 @@ h4{
 .the-events {
 	width:100%;
 	margin: 0 auto;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.events-header{
+	text-align: center;
+	font-family: 'Krona One', sans-serif;
+	margin-bottom: 60px;
 }
 
 .events-content{
