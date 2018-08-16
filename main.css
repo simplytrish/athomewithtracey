@@ -266,11 +266,8 @@ h4{
 /*Footer styling*/
 
 .the-footer {
-	width:980px;
-	/*border: 1px solid black;*/
 	margin: 0 auto;
-	padding-top: 50px;
-	padding-bottom: 50px;
+	padding:50px 150px 50px 150px;
 }
 
 /**** OXTAIL DETAILS PAGE STYLES ****/
