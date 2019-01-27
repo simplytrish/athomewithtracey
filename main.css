@@ -175,7 +175,11 @@ h4{
 	margin: 0 auto !important;
 }
 
-.index-menu-header h3{
+.index-menu-header a{
+	color:#C97E0C;
+}
+
+.index-menu-header a:hover{
 	color:#C97E0C;
 }
 
@@ -238,6 +242,8 @@ h4{
 
 }
 
+
+
 /*Event styling*/
 
 .the-events {
@@ -271,6 +277,7 @@ h4{
 .event-details-btn{
 	margin-bottom: 20px;
 }
+
 
 /*Footer styling*/
 
