@@ -278,6 +278,21 @@ h4{
 	margin-bottom: 20px;
 }
 
+.events-grid{
+	display: grid;
+	width:90%;
+	margin: 0 auto;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 10px;
+}
+
+#event-image{
+	width:100%;
+	height:200px;
+	background: url("images/foodtruck-banner.png");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
 
 /*Footer styling*/
 
