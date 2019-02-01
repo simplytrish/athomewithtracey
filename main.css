@@ -284,14 +284,42 @@ h4{
 	margin: 0 auto;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-column-gap: 10px;
+	grid-template-areas:
+      "event-one event-two event-three";
 }
 
-#event-image{
+.event1{
+	grid-area:event-one;
+}
+
+.event2{
+	grid-area:event-two;
+}
+
+.event3{
+	grid-area:event-three;
+}
+
+#event1-image{
 	width:100%;
 	height:200px;
 	background: url("images/foodtruck-banner.png");
 	background-size:100% 100%;
 	background-repeat: no-repeat;
+}
+
+#event2-image{
+	width:100%;
+	height:200px;
+	background: url("images/lessons-flyer.png");
+	background-size:100% 100%;
+	background-repeat: no-repeat;
+}
+
+.event-place_and_date{
+	display:grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 5px;
 }
 
 /*Footer styling*/
@@ -509,6 +537,17 @@ h5{
 	}
 
 }
+
+@media (max-width:1076px){
+    .events-grid{
+      grid-template-columns: 1fr;
+      grid-template-areas:
+        "event-one"
+        "event-two"
+        "event-three";
+    }
+  }
+  
 
 
 
