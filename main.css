@@ -103,6 +103,9 @@ a:hover{
 	font-family: 'Playfair Display', serif;
 }
 
+.hero-tagline, .subscribe-message{
+	margin-bottom: 0;
+}
 
 /*About styling*/
 
@@ -515,7 +518,7 @@ h5{
 }
 
 #mc_embed_signup input.button{
-	background-color: #444444;
+	background-color: #616161;
 	height:3em;
 	-webkit-transition-duration: 0.2s; /* Safari */
     transition-duration: 0.2s;
@@ -524,7 +527,7 @@ h5{
 }
 
 #mc_embed_signup input.button:hover{
-	background-color: #37a63a;
+	background-color: #444444;
 }
 
 .mail-icon, .file-icon{
