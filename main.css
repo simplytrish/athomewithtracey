@@ -93,6 +93,7 @@ a:hover{
 	background-color: rgba(255, 243, 224, 0.5);
 	padding:10px;
 	width: 600px;
+	max-height: 500px;
 }
 
 .hero-tagline {
@@ -278,7 +279,6 @@ h4{
 }
 
 
-
 /*Event styling*/
 
 .the-events {
@@ -370,6 +370,7 @@ h4{
 .the-footer {
 	margin: 0 auto;
 	padding:50px 150px 50px 150px;
+	background-color: #FFF3E0;
 }
 
 .social-icons {
