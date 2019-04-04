@@ -73,17 +73,6 @@ a:hover{
   	object-position: center;
 }
 
-.discount-banner {
-	margin: 0 auto;
-	width:80%;
-}
-
-.discount-banner img {
-	max-height:90px;
-	margin-bottom: 5px;
-	object-fit: cover; /*scale and maintain aspect ratio */
-  	object-position: center;
-}
 
 /*Hero section styling*/
 
@@ -93,6 +82,7 @@ a:hover{
 	background-color: rgba(255, 243, 224, 0.5);
 	padding:10px;
 	width: 600px;
+	height: 350px;
 }
 
 .hero-tagline {
@@ -552,15 +542,14 @@ h5{
 		margin-top: 0.5em;
 		margin-bottom: 0.5em;
 		padding-left: 0;
+	}
 }
-}
-
 
 @media(max-width:768px) {
 
 	#hero-block{
 		max-width:100%;
-		height:50%;
+		height:274px;
 	}
 
 	.hero-tagline{
@@ -612,6 +601,19 @@ h5{
 
 	.menu-item_about_info{
 		text-align: center;
+	}
+
+}
+
+@media(max-width:320px){
+	#hero-block{
+		max-width:100%;
+		height:200px;
+		padding: 5px;
+	}
+
+	#mc_embed_signup{
+		margin-bottom: 0;
 	}
 
 }
